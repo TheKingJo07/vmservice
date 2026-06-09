@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0A2E6B;
+  --royal: #1B4DFF;
+  --cyan: #22D3EE;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-white text-ink font-sans antialiased;
+}
+
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity .8s ease, transform .8s ease; }
+.reveal.in-view { opacity: 1; transform: translateY(0); }
+
+.glass {
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg,#1B4DFF,#22D3EE);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 px-7 py-4 rounded-xl font-bold uppercase tracking-wider text-white transition-all duration-300;
+  background: linear-gradient(135deg,#0A2E6B 0%,#1B4DFF 100%);
+  box-shadow: 0 12px 32px rgba(27,77,255,0.35);
+}
+.btn-primary:hover { transform: translateY(-2px) scale(1.02); box-shadow: 0 18px 48px rgba(27,77,255,0.45); }
+
+.btn-ghost {
+  @apply inline-flex items-center gap-2 px-7 py-4 rounded-xl font-bold uppercase tracking-wider transition-all duration-300 border border-navy/20 text-navy bg-white/70 backdrop-blur;
+}
+.btn-ghost:hover { @apply bg-white; transform: translateY(-2px); }
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(10,46,107,0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10,46,107,0.07) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@keyframes pulse-glow {
+  0%,100% { box-shadow: 0 0 0 0 rgba(34,211,238,0.6); }
+  50% { box-shadow: 0 0 0 18px rgba(34,211,238,0); }
+}
