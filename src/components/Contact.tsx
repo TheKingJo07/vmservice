@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, MessageCircle, Send, Facebook, Instagram } from "l
 export function Contact() {
   const [name, setName] = useState("");
   const [msg, setMsg] = useState("");
-  const wa = `https://wa.me/22900000000?text=${encodeURIComponent(`Bonjour VM Service, je suis ${name || "..."}. ${msg}`)}`;
+  const wa = `https://wa.me/22900000000?text=${encodeURIComponent(`Bonjour VM Services, je suis ${name || "..."}. ${msg}`)}`;
 
   return (
     <section id="contact" className="relative py-28" style={{ background: "linear-gradient(135deg,#0A2E6B 0%,#0B1736 100%)" }}>
@@ -28,18 +28,18 @@ export function Contact() {
                 <div className="font-semibold">+229 00 00 00 00</div>
               </div>
             </a>
-            <a href="mailto:contact@vmservice-benin.com" className="flex items-center gap-4 group">
+            <a href="mailto:contact@vmservices-benin.com" className="flex items-center gap-4 group">
               <div className="w-11 h-11 rounded-xl grid place-items-center bg-white/10 group-hover:bg-white/20 transition"><Mail className="w-5 h-5" /></div>
               <div>
                 <div className="text-xs text-white/50 uppercase tracking-wider">Email</div>
-                <div className="font-semibold">contact@vmservice-benin.com</div>
+                <div className="font-semibold">contact@vmservices-benin.com</div>
               </div>
             </a>
             <div className="flex items-center gap-4">
               <div className="w-11 h-11 rounded-xl grid place-items-center bg-white/10"><MapPin className="w-5 h-5" /></div>
               <div>
                 <div className="text-xs text-white/50 uppercase tracking-wider">Adresse</div>
-                <div className="font-semibold">Cotonou, Bénin</div>
+                <div className="font-semibold">Parakou Quartier ALBARIKA, Bénin</div>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ export function Contact() {
           </form>
 
           <div className="mt-6 rounded-3xl overflow-hidden border border-white/10 h-64">
-            <iframe title="Localisation Cotonou" src="https://www.google.com/maps?q=Cotonou,Benin&output=embed" className="w-full h-full" loading="lazy" />
+            <iframe title="Localisation Parakou" src="https://www.google.com/maps?q=Parakou,Benin&output=embed" className="w-full h-full" loading="lazy" />
           </div>
         </div>
       </div>

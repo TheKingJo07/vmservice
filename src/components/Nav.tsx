@@ -25,14 +25,14 @@ export function Nav() {
       <div className="mx-auto max-w-7xl px-6 h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <div className="w-12 h-12 rounded-xl bg-white grid place-items-center overflow-hidden ring-1 ring-navy/10 shadow-sm">
-            <img src={logo} alt="VM Service" className="w-full h-full object-contain p-1" />
+            <img src={logo} alt="VM Services" className="w-full h-full object-contain p-1" />
           </div>
           <div className="leading-none">
             <span className="block font-display font-extrabold text-lg uppercase tracking-tight">
               VM <span className="text-royal">SERVICE</span>
             </span>
             <span className="text-[10px] uppercase tracking-[0.18em] text-ink/60 font-semibold">
-              Distributeur Agréé Officiel SOBEBRA
+              Distributeur Agréé Des Produits de la SOBEBRA
             </span>
           </div>
         </a>

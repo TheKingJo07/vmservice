@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const items = [
-  { name: "Bar Le Tropical", role: "Cotonou", text: "Livraison ponctuelle, équipe pro. Notre stock ne tombe plus jamais à zéro." },
-  { name: "Mariage Adjavon", role: "Calavi", text: "200 invités servis sans rupture. Reprise des invendus le lendemain, parfait." },
-  { name: "Hôtel Lagune", role: "Cotonou", text: "Tarifs gros imbattables et facturation claire. Un vrai partenaire." },
-  { name: "Maquis Chez Ben", role: "Abomey-Calavi", text: "WhatsApp, paiement, livraison : tout est fluide. Je recommande." },
+  { name: "Bar Le Tropical", role: "Parakou", text: "Livraison ponctuelle, équipe pro. Notre stock ne tombe plus jamais à zéro." },
+  { name: "Mariage D'un Cadre à Parakou", role: "Parakou", text: "200 invités servis sans rupture. Reprise des invendus le lendemain, parfait." },
+  { name: "Hôtel", role: "Parakou", text: "Tarifs gros imbattables et facturation claire. Un vrai partenaire." },
+  { name: "Maquis", role: "Parakou", text: "WhatsApp, paiement, livraison : tout est fluide. Je recommande." },
 ];
 
 export function Testimonials() {

@@ -15,7 +15,7 @@ export function Hero() {
   return (
     <section id="top" className="relative min-h-screen w-full overflow-hidden" style={{ background: "linear-gradient(135deg,#0A2E6B 0%,#0B1736 100%)" }}>
       <div className="absolute inset-0 z-0">
-        <img src={heroTruck} alt="Distribution VM Service" className="w-full h-full object-cover opacity-30" style={{ transform: `translateY(${y * 0.25}px) scale(1.08)` }} />
+        <img src={heroTruck} alt="Distribution VM Services" className="w-full h-full object-cover opacity-30" style={{ transform: `translateY(${y * 0.25}px) scale(1.08)` }} />
         <div className="absolute inset-0" style={{ background: "linear-gradient(90deg,#0A2E6B 0%,rgba(10,46,107,0.85) 45%,transparent 100%)" }} />
         <div className="absolute inset-0" style={{ background: "linear-gradient(0deg,#0B1736 0%,transparent 60%)" }} />
       </div>
@@ -30,16 +30,16 @@ export function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan" />
             </span>
-            Distributeur Agréé Officiel SOBEBRA · Bénin
+            Distributeur Agréé des produits de la SOBEBRA · Bénin
           </div>
 
           <h1 className="font-display font-extrabold uppercase leading-[0.9] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-8 text-white">
-            VM SERVICE<br />
+            VM SERVICES<br />
             <span className="text-gradient">BÉNIN</span>
           </h1>
 
           <p className="text-lg md:text-xl text-white/75 max-w-xl leading-relaxed mb-12">
-            Distribution de boissons SOBEBRA en gros volume avec livraison rapide à Cotonou, Calavi et dans les environs.
+            Distribution de boissons SOBEBRA en gros volume avec livraison rapide.
           </p>
 
           <div className="flex flex-wrap gap-4">

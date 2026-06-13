@@ -1,4 +1,4 @@
-# VM SERVICE BENIN
+# VM SERVICES BENIN
 
 Site vitrine — Distributeur Agréé Officiel SOBEBRA.
 

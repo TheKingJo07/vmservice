@@ -8,14 +8,14 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-xl bg-white grid place-items-center overflow-hidden">
-              <img src={logo} alt="VM Service" className="w-full h-full object-contain p-1" />
+              <img src={logo} alt="VM Services" className="w-full h-full object-contain p-1" />
             </div>
             <div>
-              <div className="font-display font-extrabold text-white text-lg">VM SERVICE</div>
+              <div className="font-display font-extrabold text-white text-lg">VM SERVICES</div>
               <div className="text-[10px] uppercase tracking-[0.18em]">Distributeur Agréé SOBEBRA</div>
             </div>
           </div>
-          <p className="mt-4 text-sm leading-relaxed">Distribution de boissons SOBEBRA en gros et en détail. Cotonou, Calavi et environs.</p>
+          <p className="mt-4 text-sm leading-relaxed">Distribution de boissons SOBEBRA en gros et en détail.</p>
         </div>
 
         <div>
@@ -41,7 +41,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto max-w-7xl px-6 mt-10 pt-6 border-t border-white/10 text-xs uppercase tracking-wider text-center">
-        © {new Date().getFullYear()} VM Service Bénin · Distributeur Agréé Officiel SOBEBRA · Tous droits réservés
+        © {new Date().getFullYear()} VM Services Bénin · Distributeur Agréé Des Produits de la SOBEBRA · Tous droits réservés
       </div>
     </footer>
   );

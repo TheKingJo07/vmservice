@@ -2,10 +2,10 @@ import { Clock, ShieldCheck, CheckCircle2, MapPin } from "lucide-react";
 import warehouse from "../assets/warehouse.jpg";
 
 const points = [
-  { icon: Clock, title: "Rapidité", text: "Livraison en moins de 24h dans Cotonou et Calavi." },
+  { icon: Clock, title: "Rapidité", text: "Livraison en moins de 24h." },
   { icon: ShieldCheck, title: "Fiabilité", text: "Produits 100% officiels SOBEBRA, traçabilité garantie." },
   { icon: CheckCircle2, title: "Disponibilité", text: "Stock permanent, équipe joignable 7j/7 sur WhatsApp." },
-  { icon: MapPin, title: "Couverture", text: "Cotonou, Calavi, Abomey-Calavi et environs." },
+  { icon: MapPin, title: "Couverture", text: "Parakou et environs." },
 ];
 
 export function About() {
@@ -14,7 +14,7 @@ export function About() {
       <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-16 items-center">
         <div className="reveal relative">
           <div className="absolute -top-6 -left-6 w-24 h-24 rounded-2xl bg-cyan/20" />
-          <img src={warehouse} alt="Entrepôt VM Service" className="relative rounded-3xl shadow-soft object-cover w-full h-[520px]" />
+          <img src={warehouse} alt="Entrepôt VM Services" className="relative rounded-3xl shadow-soft object-cover w-full h-[520px]" />
           <div className="absolute -bottom-6 -right-6 rounded-2xl bg-white p-5 shadow-glow border border-navy/10">
             <div className="text-3xl font-display font-extrabold text-gradient">+10 ans</div>
             <div className="text-xs text-ink/60 uppercase tracking-wider">d'expérience terrain</div>
@@ -24,11 +24,11 @@ export function About() {
         <div className="reveal">
           <div className="text-xs uppercase tracking-[0.3em] text-royal font-bold">Qui sommes-nous</div>
           <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">
-            Distributeur agréé officiel <br /><span className="text-gradient">SOBEBRA au Bénin</span>
+            Distributeur agréé des produits SOBEBRA <br /><span className="text-gradient">au Bénin</span>
           </h2>
           <p className="mt-5 text-ink/70 text-lg leading-relaxed">
-            VM Service est une entreprise spécialisée dans la distribution de boissons et de produits de grande consommation.
-            Distributeur agréé officiel SOBEBRA, nous approvisionnons particuliers, commerçants, bars, restaurants, événements
+            VM Services est une entreprise spécialisée dans la distribution de boissons et de produits de grande consommation.
+            Distributeur agréé des produits de la SOBEBRA, nous approvisionnons particuliers, commerçants, bars, restaurants, événements
             et revendeurs avec puissance logistique et fiabilité.
           </p>
           <div className="mt-8 grid sm:grid-cols-2 gap-4">

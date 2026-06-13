@@ -1,7 +1,7 @@
 import { Truck, Boxes, PartyPopper, Headphones, Store, Building2, Wine, Utensils } from "lucide-react";
 
 const services = [
-  { icon: Truck, title: "Livraison rapide", text: "Cotonou, Calavi et environs en 24h chrono." },
+  { icon: Truck, title: "Livraison rapide", text: "en 24h chrono." },
   { icon: Boxes, title: "Vente en gros", text: "Tarifs adaptés aux gros volumes pour revendeurs." },
   { icon: Store, title: "Vente au détail", text: "Disponible selon stock pour les particuliers." },
   { icon: PartyPopper, title: "Événementiel", text: "Mariages, fêtes, concerts : approvisionnement complet." },
