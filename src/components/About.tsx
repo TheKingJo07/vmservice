@@ -23,9 +23,16 @@ export function About() {
 
         <div className="reveal">
           <div className="text-xs uppercase tracking-[0.3em] text-royal font-bold">Qui sommes-nous</div>
-          <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">
+          {/* <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">
             Distributeur agréé des produits SOBEBRA <br /><span className="text-gradient">au Bénin</span>
-          </h2>
+          </h2> */}
+          <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">
+  <span style={{ color: "#FFD700" }}>
+    Distributeur agréé des produits SOBEBRA
+  </span>
+  <br />
+  <span className="text-gradient">au Bénin</span>
+</h2>
           <p className="mt-5 text-ink/70 text-lg leading-relaxed">
             VM Services est une entreprise spécialisée dans la distribution de boissons et de produits de grande consommation.
             Distributeur agréé des produits de la SOBEBRA, nous approvisionnons particuliers, commerçants, bars, restaurants, événements
@@ -37,7 +44,8 @@ export function About() {
                 <div className="w-11 h-11 rounded-xl grid place-items-center mb-3 bg-gradient-primary text-white group-hover:scale-110 transition">
                   <p.icon className="w-5 h-5" />
                 </div>
-                <div className="font-display font-bold">{p.title}</div>
+                {/* <div className="font-display font-bold">{p.title}</div> */}
+                <div className="font-display font-bold" style={{ color: "#FFD700" }}>{p.title}</div>
                 <div className="text-sm text-ink/60 mt-1">{p.text}</div>
               </div>
             ))}

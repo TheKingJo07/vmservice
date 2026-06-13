@@ -19,7 +19,11 @@ export function Testimonials() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="reveal text-center mb-14">
           <div className="text-xs uppercase tracking-[0.3em] text-royal font-bold">Témoignages</div>
-          <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">Ils nous font <span className="text-gradient">confiance</span></h2>
+          {/* <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">Ils nous font <span className="text-gradient">confiance</span></h2> */}
+          <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">
+  <span style={{ color: "#FFD700" }}>Ils nous font</span>
+  <span className="text-gradient"> confiance</span>
+</h2>
         </div>
 
         <div className="reveal relative rounded-3xl bg-white border border-navy/10 p-10 md:p-14 shadow-soft">

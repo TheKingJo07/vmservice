@@ -33,10 +33,15 @@ export function Hero() {
             Distributeur Agréé des produits de la SOBEBRA · Bénin
           </div>
 
-          <h1 className="font-display font-extrabold uppercase leading-[0.9] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-8 text-white">
+          {/* <h1 className="font-display font-extrabold uppercase leading-[0.9] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-8 text-white">
             VM SERVICES<br />
             <span className="text-gradient">BÉNIN</span>
-          </h1>
+          </h1> */}
+          <h1 className="font-display font-extrabold uppercase leading-[0.9] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-8 text-white">
+  <span style={{ color: "#FFD700" }}>VM SERVICES</span>
+  <br />
+  <span className="text-gradient">BÉNIN</span>
+</h1>
 
           <p className="text-lg md:text-xl text-white/75 max-w-xl leading-relaxed mb-12">
             Distribution de boissons SOBEBRA en gros volume avec livraison rapide.
@@ -67,8 +72,10 @@ export function Hero() {
                 <s.Icon className="w-7 h-7" strokeWidth={1.5} />
               </div>
               <div>
-                <div className="font-display font-extrabold text-3xl text-white">{s.value}</div>
-                <div className="text-[10px] uppercase tracking-[0.2em] font-bold text-white/60">{s.label}</div>
+                {/* <div className="font-display font-extrabold text-3xl text-white">{s.value}</div> */}
+                <div className="font-display font-extrabold text-3xl" style={{ color: "#FFD700" }}>{s.value}</div>
+                {/* <div className="text-[10px] uppercase tracking-[0.2em] font-bold text-white/60">{s.label}</div> */}
+                <div className="text-[10px] uppercase tracking-[0.2em] font-bold" style={{ color: "#FFD700" }}>{s.label}</div>
               </div>
             </div>
           ))}

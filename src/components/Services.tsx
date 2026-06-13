@@ -18,7 +18,11 @@ export function Services() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="reveal text-center max-w-2xl mx-auto mb-16">
           <div className="text-xs uppercase tracking-[0.3em] text-royal font-bold">Services</div>
-          <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">Une logistique <span className="text-gradient">sans friction</span></h2>
+          {/* <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">Une logistique <span className="text-gradient">sans friction</span></h2> */}
+          <h2 className="mt-3 text-4xl md:text-5xl font-display font-extrabold">
+  <span style={{ color: "#FFD700" }}>Une logistique</span>
+  <span className="text-gradient"> sans friction</span>
+</h2>
           <p className="mt-4 text-ink/60">De la commande au déchargement, tout est pensé pour vous faire gagner du temps.</p>
         </div>
 
@@ -28,7 +32,10 @@ export function Services() {
               <div className="w-14 h-14 rounded-2xl grid place-items-center mb-5 bg-gradient-primary text-white shadow-glow group-hover:scale-110 group-hover:rotate-6 transition">
                 <s.icon className="w-6 h-6" />
               </div>
-              <h3 className="font-display font-extrabold text-xl">{s.title}</h3>
+              {/* <h3 className="font-display font-extrabold text-xl">{s.title}</h3> */}
+              <h3 className="font-display font-extrabold text-xl" style={{ color: "#FFD700" }}>
+  {s.title}
+</h3>
               <p className="mt-2 text-sm text-ink/60 leading-relaxed">{s.text}</p>
               <div className="mt-6 text-xs font-mono text-ink/30">0{i + 1} / 0{services.length}</div>
             </div>

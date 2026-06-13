@@ -30,9 +30,13 @@ export function Products() {
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="reveal text-center max-w-2xl mx-auto mb-16">
           <div className="text-xs uppercase tracking-[0.3em] text-royal font-bold">Nos Produits</div>
-          <h2 className="mt-3 text-4xl md:text-6xl font-display font-extrabold tracking-tight">
+          {/* <h2 className="mt-3 text-4xl md:text-6xl font-display font-extrabold tracking-tight">
             Deux formats. <span className="text-gradient">Un seul standard.</span>
-          </h2>
+          </h2> */}
+          <h2 className="mt-3 text-4xl md:text-6xl font-display font-extrabold tracking-tight">
+  <span style={{ color: "#FFD700" }}>Deux formats.</span>
+  <span className="text-gradient"> Un seul standard.</span>
+</h2>
           <p className="mt-4 text-ink/60">Distribution massive de boissons SOBEBRA, du casier consigné au pack PET.</p>
         </div>
 
@@ -48,7 +52,10 @@ export function Products() {
                 </div>
               </div>
               <div className="p-8">
-                <h3 className="font-display font-extrabold text-2xl md:text-3xl leading-tight">{b.title}</h3>
+                {/* <h3 className="font-display font-extrabold text-2xl md:text-3xl leading-tight">{b.title}</h3> */}
+                <h3 className="font-display font-extrabold text-2xl md:text-3xl leading-tight" style={{ color: "#FFD700" }}>
+  {b.title}
+</h3>
                 <p className="mt-3 text-ink/70 leading-relaxed">{b.desc}</p>
                 <a href={`https://wa.me/22900000000?text=${encodeURIComponent(b.wa)}`} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6">
                   <MessageCircle className="w-4 h-4" />
