@@ -29,7 +29,7 @@ export function Nav() {
           </div>
           <div className="leading-none">
             <span className="block font-display font-extrabold text-lg uppercase tracking-tight">
-              VM <span className="text-royal">SERVICE</span>
+              VM <span className="text-royal">SERVICES</span>
             </span>
             <span className="text-[10px] uppercase tracking-[0.18em] text-ink/60 font-semibold">
               Distributeur Agréé Des Produits de la SOBEBRA
